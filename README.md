@@ -29,3 +29,9 @@ Fonctionnement de l'API:
   API flask réalisée en python.
   
 Conclusion:
+
+  Après avoir bien analysé et visualisé les données concernant le filtrage de mail en spam et non spam, nous avons implémenté 3 modèles différents:
+  - KNN
+  - Clustering
+  - Regression lineaire
+  Nous avons réussi à améliorer nos précisions pour en effectuant un subset de la dataframe (suppression des colonnes dont le p_value > 0,05).
