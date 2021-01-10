@@ -6,20 +6,14 @@ Tâches à effectuer et conclusion
 Problem:
   The "spam" concept is diverse: advertisements for products/web
   sites, make money fast schemes, chain letters, pornography...
-	Our collection of spam e-mails came from our postmaster and 
-	individuals who had filed spam.  Our collection of non-spam 
-	e-mails came from filed work and personal e-mails, and hence
-	the word 'george' and the area code '650' are indicators of 
-	non-spam.  These are useful when constructing a personalized 
-	spam filter.  One would either have to blind such non-spam 
-	indicators or get a very wide collection of non-spam to 
-	generate a general purpose spam filter.
+  Our collection of spam e-mails came from individuals who had filed spam.  
+  Our collection of non-spam e-mails came from filed work and personal e-mails
 
 Dataset: 
   Number of Instances: 4601 (1813 Spam = 39.4%)
   Number of Attributes: 58 (57 continuous, 1 nominal class label)
   Spam	  1813  (39.4%)
-	Non-Spam  2788  (60.6%)
+  Non-Spam  2788  (60.6%)
 
 Attribute Information:
   The last column of 'spambase.data' denotes whether the e-mail was 
@@ -32,4 +26,6 @@ Attribute Information:
   - 1 nominal {0,1} class attribute of type spam = denotes whether the e-mail was considered spam (1) or not (0), 
 
 Fonctionnement de l'API:
-
+  API flask réalisée en python.
+  
+Conclusion:
