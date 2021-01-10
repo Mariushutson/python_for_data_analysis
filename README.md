@@ -35,3 +35,5 @@ Conclusion:
   - Clustering
   - Regression lineaire
   Nous avons réussi à améliorer nos précisions pour en effectuant un subset de la dataframe (suppression des colonnes dont le p_value > 0,05).
+  
+  Marius
